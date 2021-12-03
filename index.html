@@ -13,22 +13,32 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="text-light">
-      <h1 style="text-align: center">Welcome to SpaceX info application</h1>
-      <p>This Site will give you some insights about SpaceX flights.</p>
-      <div id="history_section">
-        Are you interested in our history? You could click on the button to read
-        more details.
-        <button id="history_button" class="btn btn-secondary">Click me</button>
-      </div>
-      <div id="history"></div>
+    <div class="text-light p-4">
+      <h1 class="text-center p-3">SpaceX Info Application</h1>
+      <p class="display-4">
+        This Site will give you some insights about SpaceX flights.
+      </p>
+      <br />
       <div class="row" id="crew_section">
         <div class="col">Number of the active crew members:</div>
-        <div class="col " id="crew" ></div>
-        <div class="col"><button id="crew_button" class="btn btn-secondary">Calculate</button></div>
+        <div class="col" id="crew"></div>
+        <div class="col">
+          <button id="crew_button" class="btn btn-secondary">Calculate</button>
+        </div>
       </div>
-      <div id="number_of_capsules">Number Of capsules is:</div>
-      <div id="status_of_capsules">Each status:</div>
+      <br />
+      <div class="row" id="history_section">
+        <div class="col-8">
+          Are you interested in SpaceX flights' history? You could click on the
+          button to read more about it. Enjoy!
+        </div>
+        <div class="col-4">
+          <button id="history_button" class="btn btn-secondary">
+            Click me
+          </button>
+        </div>
+      </div>
+      <div id="history"></div>
     </div>
   </body>
   <script src="data.js"></script>
