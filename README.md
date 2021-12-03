@@ -2,8 +2,11 @@
 
 New application about SpaceX flights in javascript
 using DOM manipulation.
-For styling: Bootstrap and CSS.
+For styling: Bootstrap and CSS. The site is responsive, using Bootstrap grid system.
 The application provides some information about the crew members, capsules and displays a short history about SpaceX flights.
+The site is respons
+The application runs locally. I used Apache24 to see the results.
+
 Crew information:
 created using the endpoint https://api.spacexdata.com/v4/crew
 displays total number of active crew members.

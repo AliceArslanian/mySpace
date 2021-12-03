@@ -1,5 +1,7 @@
 /**
  * functions to fetch some data and display it on UI.
+ * The data is rendered when clicking on the related buttons
+ * Hiding the data when clicking on the hide button
  */
 const url = "https://api.spacexdata.com/v4";
 
