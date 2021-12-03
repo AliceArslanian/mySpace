@@ -38,16 +38,13 @@ function _fetchCapsules() {
   fetch(`${url}/capsules`)
     .then((res) => res.json())
     .then((res) => {
-      var numberOfCapsules = document.getElementById("number_of_capsules");
-      var statusOfCapsules = document.getElementById("status_of_capsules");
-      numberOfCapsules.append(res.length);
-      let test;
+      console.log(res, "res");
       res.forEach((r) => {
-        test = test + r.last_update;
+        //test = test + r.last_update;
       });
     });
 }
-
+_fetchCapsules();
 var historyButton = document.getElementById("history_button");
 historyButton.addEventListener("click", function (e) {
   _fetchHistory();
@@ -80,5 +77,3 @@ async function _fetchHistory() {
     return;
   }
 }
-
-_fetchCapsules();
