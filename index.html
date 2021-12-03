@@ -19,7 +19,6 @@
       <p class="display-4">
         This Site will give you some insights about SpaceX flights.
       </p>
-
       <br />
       <div class="row" id="crew_section">
         <div class="col">Number of the active crew members:</div>
@@ -27,6 +26,35 @@
         <div class="col">
           <button id="crew_button" class="btn btn-secondary">Calculate</button>
         </div>
+      </div>
+      <br />
+      <div class="row" id="capsules_section">
+        <div class="col-8">Get information about capsules:</div>
+        <div class="col-4">
+          <button id="capsules_button" class="btn btn-secondary">
+            Get info
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-4">&nbsp; * Total number of capsules:</div>
+        <div class="col-4" id="capsules"></div>
+      </div>
+      <div class="row">
+        <div class="col-4">&nbsp; * Total number of water landings:</div>
+        <div class="col-4" id="landings"></div>
+      </div>
+      <div class="row">
+        <div class="col-4">&nbsp; * Total number of Dragon 1.0:</div>
+        <div class="col-4" id="dragon1"></div>
+      </div>
+      <div class="row">
+        <div class="col-4">&nbsp; * Total number of Dragon 1.1:</div>
+        <div class="col-4" id="dragon11"></div>
+      </div>
+      <div class="row">
+        <div class="col-4">&nbsp; * Total number of Dragon 2.0:</div>
+        <div class="col-4" id="dragon2"></div>
       </div>
       <br />
       <div class="row" id="history_section">
@@ -40,7 +68,18 @@
           </button>
         </div>
       </div>
+      <br />
       <b><div id="history" class="bg-dark"></div></b>
+      <br />
+      <div>
+        Resources:
+        <a
+          href="https://github.com/r-spacex/SpaceX-API/tree/master/docs/"
+          target="_blank"
+        >
+          Open</a
+        >
+      </div>
     </div>
   </body>
   <script src="data.js"></script>
